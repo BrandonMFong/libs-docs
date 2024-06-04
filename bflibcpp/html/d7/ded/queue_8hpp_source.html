@@ -100,12 +100,12 @@ $(function(){initNavTree('d7/ded/queue_8hpp_source.html','../../'); initResizabl
   <div class="headertitle"><div class="title">queue.hpp</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<a href="../../d7/ded/queue_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#ifndef QUEUE_HPP</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#define QUEUE_HPP</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;access.hpp&quot;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;list.hpp&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="../../d4/dbf/access_8hpp.html">access.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="../../dc/d1d/list_8hpp.html">list.hpp</a>&quot;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d3/de8/namespaceBF.html">BF</a> {</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
@@ -113,37 +113,49 @@ $(function(){initNavTree('d7/ded/queue_8hpp_source.html','../../'); initResizabl
 <div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../d5/da3/classBF_1_1Queue.html">   15</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d5/da3/classBF_1_1Queue.html">Queue</a> : <span class="keyword">protected</span> <a class="code hl_class" href="../../d1/de0/classBF_1_1List.html">List</a>&lt;T,S&gt; {</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <a class="code hl_class" href="../../d5/da3/classBF_1_1Queue.html">Queue</a>() : <a class="code hl_class" href="../../d1/de0/classBF_1_1List.html">List&lt;T,S&gt;</a>() {</div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="}">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d5/da3/classBF_1_1Queue.html#a1d9b2ca233d45fd372a04d34b5783c75">   17</a></span>    <a class="code hl_function" href="../../d5/da3/classBF_1_1Queue.html#a1d9b2ca233d45fd372a04d34b5783c75">Queue</a>() : <a class="code hl_class" href="../../d1/de0/classBF_1_1List.html">List</a>&lt;T,S&gt;() {</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    }</div>
+</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <a class="code hl_class" href="../../d5/da3/classBF_1_1Queue.html">~Queue</a>() {</div>
+<div class="foldopen" id="foldopen00021" data-start="{" data-end="}">
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d5/da3/classBF_1_1Queue.html#a753bdad6156cd8ce0986065df8eb2b1e">   21</a></span>    <a class="code hl_function" href="../../d5/da3/classBF_1_1Queue.html#a753bdad6156cd8ce0986065df8eb2b1e">~Queue</a>() {</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    }</div>
+</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">int</span> push(T <span class="keywordtype">object</span>) {</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keywordflow">return</span> this-&gt;add(<span class="keywordtype">object</span>);</div>
+<div class="foldopen" id="foldopen00025" data-start="{" data-end="}">
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d5/da3/classBF_1_1Queue.html#aa1b9523038a6c19198e158354d96d2e8">   25</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d5/da3/classBF_1_1Queue.html#aa1b9523038a6c19198e158354d96d2e8">push</a>(T <span class="keywordtype">object</span>) {</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keywordflow">return</span> this-&gt;<a class="code hl_function" href="../../d1/de0/classBF_1_1List.html#ae141a2f46b403ae0bb975e3c27c3bdf5">add</a>(<span class="keywordtype">object</span>);</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    }</div>
+</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">int</span> pop() {</div>
+<div class="foldopen" id="foldopen00029" data-start="{" data-end="}">
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../d5/da3/classBF_1_1Queue.html#aa0ed296522af5c92581b5fede961e759">   29</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d5/da3/classBF_1_1Queue.html#aa0ed296522af5c92581b5fede961e759">pop</a>() {</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordflow">return</span> this-&gt;<a class="code hl_function" href="../../d1/de0/classBF_1_1List.html#ae9f7804ed371ef3f13b43c759860c034">deleteNode</a>(this-&gt;<a class="code hl_function" href="../../d1/de0/classBF_1_1List.html#ae279ab6ee0a8c33e5b67eb7dfc98f307">first</a>());</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    }</div>
+</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    T front()<span class="keyword"> const </span>{</div>
+<div class="foldopen" id="foldopen00033" data-start="{" data-end="}">
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d5/da3/classBF_1_1Queue.html#abc8061e9a43d021306318f90dc3e3cc5">   33</a></span>    T <a class="code hl_function" href="../../d5/da3/classBF_1_1Queue.html#abc8061e9a43d021306318f90dc3e3cc5">front</a>()<span class="keyword"> const </span>{</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <span class="keyword">typename</span> <a class="code hl_class" href="../../d2/dff/classBF_1_1List_1_1Node.html">List&lt;T,S&gt;::Node</a> * n = this-&gt;<a class="code hl_function" href="../../d1/de0/classBF_1_1List.html#ae279ab6ee0a8c33e5b67eb7dfc98f307">first</a>();</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordflow">if</span> (n) <span class="keywordflow">return</span> n-&gt;object();</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordflow">if</span> (n) <span class="keywordflow">return</span> n-&gt;<a class="code hl_function" href="../../d2/dff/classBF_1_1List_1_1Node.html#a13889d65f7b3afd6f74225bafde4c270">object</a>();</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    }</div>
+</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    T back()<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keyword">typename</span> <a class="code hl_class" href="../../d2/dff/classBF_1_1List_1_1Node.html">List&lt;T,S&gt;::Node</a> * n = this-&gt;last();</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordflow">if</span> (n) <span class="keywordflow">return</span> n-&gt;object();</div>
+<div class="foldopen" id="foldopen00039" data-start="{" data-end="}">
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d5/da3/classBF_1_1Queue.html#a04d5b2224b099e27ea36a1eb4d6aff1d">   39</a></span>    T <a class="code hl_function" href="../../d5/da3/classBF_1_1Queue.html#a04d5b2224b099e27ea36a1eb4d6aff1d">back</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keyword">typename</span> <a class="code hl_class" href="../../d2/dff/classBF_1_1List_1_1Node.html">List&lt;T,S&gt;::Node</a> * n = this-&gt;<a class="code hl_function" href="../../d1/de0/classBF_1_1List.html#a76ceeeb26d328461106549503babccd9">last</a>();</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordflow">if</span> (n) <span class="keywordflow">return</span> n-&gt;<a class="code hl_function" href="../../d2/dff/classBF_1_1List_1_1Node.html#a13889d65f7b3afd6f74225bafde4c270">object</a>();</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    }</div>
+</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    S size() { <span class="keywordflow">return</span> this-&gt;count(); }</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../d5/da3/classBF_1_1Queue.html#a0afd678814209f99df8b878d65bf5529">   45</a></span>    S <a class="code hl_function" href="../../d5/da3/classBF_1_1Queue.html#a0afd678814209f99df8b878d65bf5529">size</a>() { <span class="keywordflow">return</span> this-&gt;<a class="code hl_function" href="../../d1/de0/classBF_1_1List.html#a4c35450c6940f496cd64cc6538af1316">count</a>(); }</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordtype">bool</span> empty() { <span class="keywordflow">return</span> this-&gt;count() == 0; };</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../d5/da3/classBF_1_1Queue.html#a8141c5e53bf1a2aaf59b94d3248b6735">   47</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d5/da3/classBF_1_1Queue.html#a8141c5e53bf1a2aaf59b94d3248b6735">empty</a>() { <span class="keywordflow">return</span> this-&gt;<a class="code hl_function" href="../../d1/de0/classBF_1_1List.html#a4c35450c6940f496cd64cc6538af1316">count</a>() == 0; };</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>};</div>
 </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
@@ -151,18 +163,32 @@ $(function(){initNavTree('d7/ded/queue_8hpp_source.html','../../'); initResizabl
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#endif </span><span class="comment">// QUEUE_HPP</span></div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="ttc" id="aaccess_8hpp_html"><div class="ttname"><a href="../../d4/dbf/access_8hpp.html">access.hpp</a></div></div>
 <div class="ttc" id="aclassBF_1_1List_1_1Node_html"><div class="ttname"><a href="../../d2/dff/classBF_1_1List_1_1Node.html">BF::List::Node</a></div><div class="ttdef"><b>Definition</b> list.hpp:47</div></div>
+<div class="ttc" id="aclassBF_1_1List_1_1Node_html_a13889d65f7b3afd6f74225bafde4c270"><div class="ttname"><a href="../../d2/dff/classBF_1_1List_1_1Node.html#a13889d65f7b3afd6f74225bafde4c270">BF::List::Node::object</a></div><div class="ttdeci">L object() const</div><div class="ttdef"><b>Definition</b> list.hpp:58</div></div>
 <div class="ttc" id="aclassBF_1_1List_html"><div class="ttname"><a href="../../d1/de0/classBF_1_1List.html">BF::List</a></div><div class="ttdef"><b>Definition</b> list.hpp:41</div></div>
+<div class="ttc" id="aclassBF_1_1List_html_a4c35450c6940f496cd64cc6538af1316"><div class="ttname"><a href="../../d1/de0/classBF_1_1List.html#a4c35450c6940f496cd64cc6538af1316">BF::List&lt; T, int &gt;::count</a></div><div class="ttdeci">int count() const</div><div class="ttdef"><b>Definition</b> list.hpp:104</div></div>
+<div class="ttc" id="aclassBF_1_1List_html_a76ceeeb26d328461106549503babccd9"><div class="ttname"><a href="../../d1/de0/classBF_1_1List.html#a76ceeeb26d328461106549503babccd9">BF::List&lt; T, int &gt;::last</a></div><div class="ttdeci">Node * last() const</div><div class="ttdef"><b>Definition</b> list.hpp:229</div></div>
+<div class="ttc" id="aclassBF_1_1List_html_ae141a2f46b403ae0bb975e3c27c3bdf5"><div class="ttname"><a href="../../d1/de0/classBF_1_1List.html#ae141a2f46b403ae0bb975e3c27c3bdf5">BF::List&lt; T, int &gt;::add</a></div><div class="ttdeci">int add(T obj)</div><div class="ttdef"><b>Definition</b> list.hpp:107</div></div>
 <div class="ttc" id="aclassBF_1_1List_html_ae279ab6ee0a8c33e5b67eb7dfc98f307"><div class="ttname"><a href="../../d1/de0/classBF_1_1List.html#ae279ab6ee0a8c33e5b67eb7dfc98f307">BF::List&lt; T, int &gt;::first</a></div><div class="ttdeci">Node * first() const</div><div class="ttdef"><b>Definition</b> list.hpp:225</div></div>
 <div class="ttc" id="aclassBF_1_1List_html_ae9f7804ed371ef3f13b43c759860c034"><div class="ttname"><a href="../../d1/de0/classBF_1_1List.html#ae9f7804ed371ef3f13b43c759860c034">BF::List&lt; T, int &gt;::deleteNode</a></div><div class="ttdeci">int deleteNode(Node *node)</div><div class="ttdef"><b>Definition</b> list.hpp:288</div></div>
 <div class="ttc" id="aclassBF_1_1Queue_html"><div class="ttname"><a href="../../d5/da3/classBF_1_1Queue.html">BF::Queue</a></div><div class="ttdef"><b>Definition</b> queue.hpp:15</div></div>
+<div class="ttc" id="aclassBF_1_1Queue_html_a04d5b2224b099e27ea36a1eb4d6aff1d"><div class="ttname"><a href="../../d5/da3/classBF_1_1Queue.html#a04d5b2224b099e27ea36a1eb4d6aff1d">BF::Queue::back</a></div><div class="ttdeci">T back() const</div><div class="ttdef"><b>Definition</b> queue.hpp:39</div></div>
+<div class="ttc" id="aclassBF_1_1Queue_html_a0afd678814209f99df8b878d65bf5529"><div class="ttname"><a href="../../d5/da3/classBF_1_1Queue.html#a0afd678814209f99df8b878d65bf5529">BF::Queue::size</a></div><div class="ttdeci">S size()</div><div class="ttdef"><b>Definition</b> queue.hpp:45</div></div>
+<div class="ttc" id="aclassBF_1_1Queue_html_a1d9b2ca233d45fd372a04d34b5783c75"><div class="ttname"><a href="../../d5/da3/classBF_1_1Queue.html#a1d9b2ca233d45fd372a04d34b5783c75">BF::Queue::Queue</a></div><div class="ttdeci">Queue()</div><div class="ttdef"><b>Definition</b> queue.hpp:17</div></div>
+<div class="ttc" id="aclassBF_1_1Queue_html_a753bdad6156cd8ce0986065df8eb2b1e"><div class="ttname"><a href="../../d5/da3/classBF_1_1Queue.html#a753bdad6156cd8ce0986065df8eb2b1e">BF::Queue::~Queue</a></div><div class="ttdeci">~Queue()</div><div class="ttdef"><b>Definition</b> queue.hpp:21</div></div>
+<div class="ttc" id="aclassBF_1_1Queue_html_a8141c5e53bf1a2aaf59b94d3248b6735"><div class="ttname"><a href="../../d5/da3/classBF_1_1Queue.html#a8141c5e53bf1a2aaf59b94d3248b6735">BF::Queue::empty</a></div><div class="ttdeci">bool empty()</div><div class="ttdef"><b>Definition</b> queue.hpp:47</div></div>
+<div class="ttc" id="aclassBF_1_1Queue_html_aa0ed296522af5c92581b5fede961e759"><div class="ttname"><a href="../../d5/da3/classBF_1_1Queue.html#aa0ed296522af5c92581b5fede961e759">BF::Queue::pop</a></div><div class="ttdeci">int pop()</div><div class="ttdef"><b>Definition</b> queue.hpp:29</div></div>
+<div class="ttc" id="aclassBF_1_1Queue_html_aa1b9523038a6c19198e158354d96d2e8"><div class="ttname"><a href="../../d5/da3/classBF_1_1Queue.html#aa1b9523038a6c19198e158354d96d2e8">BF::Queue::push</a></div><div class="ttdeci">int push(T object)</div><div class="ttdef"><b>Definition</b> queue.hpp:25</div></div>
+<div class="ttc" id="aclassBF_1_1Queue_html_abc8061e9a43d021306318f90dc3e3cc5"><div class="ttname"><a href="../../d5/da3/classBF_1_1Queue.html#abc8061e9a43d021306318f90dc3e3cc5">BF::Queue::front</a></div><div class="ttdeci">T front() const</div><div class="ttdef"><b>Definition</b> queue.hpp:33</div></div>
+<div class="ttc" id="alist_8hpp_html"><div class="ttname"><a href="../../dc/d1d/list_8hpp.html">list.hpp</a></div></div>
 <div class="ttc" id="anamespaceBF_html"><div class="ttname"><a href="../../d3/de8/namespaceBF.html">BF</a></div><div class="ttdef"><b>Definition</b> array.hpp:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="../../dir_723a1c52200488eb3c7bdca4b3cb1576.html">bflibcpp</a></li><li class="navelem"><a class="el" href="../../dir_7bcac66acf78c703978d8bf77a4f96ff.html">src</a></li><li class="navelem"><b>queue.hpp</b></li>
+    <li class="navelem"><a class="el" href="../../dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="../../dir_723a1c52200488eb3c7bdca4b3cb1576.html">bflibcpp</a></li><li class="navelem"><a class="el" href="../../dir_7bcac66acf78c703978d8bf77a4f96ff.html">src</a></li><li class="navelem"><a class="el" href="../../d7/ded/queue_8hpp.html">queue.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

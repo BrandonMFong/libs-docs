@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['object_0',['Object',['../d1/d3a/classBF_1_1Object.html',1,'BF::Object'],['../d1/d3a/classBF_1_1Object.html#a089c1e9918f5a449d24bf3cca51e8a80',1,'BF::Object::Object()']]],
-  ['objectatindex_1',['objectAtIndex',['../d3/d15/classBF_1_1Array.html#a602e0779b8a42eb2d4c09b0e64782272',1,'BF::Array']]],
-  ['operator_3d_2',['operator=',['../d3/d15/classBF_1_1Array.html#af1115273f84c4915c89877b3be2953ae',1,'BF::Array']]],
-  ['operator_3d_3d_3',['operator==',['../d0/df9/classBF_1_1Time.html#aefbf0fdb06ce78be26cd2a448cff5c69',1,'BF::Time']]]
+  ['name_0',['name',['../da/d6b/classBF_1_1File.html#a430a2a8353c6df91eed76a387e6e209a',1,'BF::File']]],
+  ['next_1',['next',['../df/dcd/classBF_1_1BinTree_1_1Iterator.html#af7ed5a500c020a803d76261b97ce88ff',1,'BF::BinTree::Iterator::next()'],['../d2/dff/classBF_1_1List_1_1Node.html#a7d426a61dc8b5f6eb59ce1aef6157e21',1,'BF::List::Node::next()']]],
+  ['node_2',['Node',['../d2/dff/classBF_1_1List_1_1Node.html',1,'BF::List']]]
 ];

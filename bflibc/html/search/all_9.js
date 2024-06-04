@@ -1,4 +1,30 @@
 var searchData=
 [
-  ['waitlock_0',['waitlock',['../de/d76/struct__BFThreadAsyncID.html#aadc8fd71092a902d1842acf0f2d277dc',1,'_BFThreadAsyncID']]]
+  ['kbfbytegibibyte_0',['kBFByteGibiByte',['../da/dd3/coreutils_8h.html#ad4f68538676582eb3b9caa066c4a332c',1,'coreutils.h']]],
+  ['kbfbytegigabyte_1',['kBFByteGigaByte',['../da/dd3/coreutils_8h.html#ab94ec44cd02ded2ffda28c3080a57f0a',1,'coreutils.h']]],
+  ['kbfbytekibibyte_2',['kBFByteKibiByte',['../da/dd3/coreutils_8h.html#a5070161ec3949a148e060945a1ab1040',1,'coreutils.h']]],
+  ['kbfbytekilobyte_3',['kBFByteKiloByte',['../da/dd3/coreutils_8h.html#ae9c3b55675367d48d1d06318c470f5f6',1,'coreutils.h']]],
+  ['kbfbytemebibyte_4',['kBFByteMebiByte',['../da/dd3/coreutils_8h.html#aa25056ccf8395ee4d6cd17e092785735',1,'coreutils.h']]],
+  ['kbfbytemegabyte_5',['kBFByteMegaByte',['../da/dd3/coreutils_8h.html#a888d83e564b70c5caf235890eb3fad4f',1,'coreutils.h']]],
+  ['kbfbytetebibyte_6',['kBFByteTebiByte',['../da/dd3/coreutils_8h.html#a5f1ca94d4cf517ef105faa279e21ac51',1,'coreutils.h']]],
+  ['kbfbyteterabyte_7',['kBFByteTeraByte',['../da/dd3/coreutils_8h.html#aec6bed40db65f0ced38e2cbd8dd2ce03',1,'coreutils.h']]],
+  ['kbfchecksumtypemd5_8',['kBFChecksumTypeMD5',['../dc/d31/checksum_8h.html#a32226eefcab7fe778279ca4d635634d4a498f55d9bc78588aaf324cefcfd5e178',1,'checksum.h']]],
+  ['kbfchecksumtypesha1_9',['kBFChecksumTypeSHA1',['../dc/d31/checksum_8h.html#a32226eefcab7fe778279ca4d635634d4adb388da39b5191b6b1ac9a7aa2a30cb6',1,'checksum.h']]],
+  ['kbfchecksumtypesha256_10',['kBFChecksumTypeSHA256',['../dc/d31/checksum_8h.html#a32226eefcab7fe778279ca4d635634d4a0999d1cebfc819387da375bd97e69080',1,'checksum.h']]],
+  ['kbfchecksumtypesha512_11',['kBFChecksumTypeSHA512',['../dc/d31/checksum_8h.html#a32226eefcab7fe778279ca4d635634d4ae4c4ee18aed40fde46490368227eefc8',1,'checksum.h']]],
+  ['kbfchecksumtypeunknown_12',['kBFChecksumTypeUnknown',['../dc/d31/checksum_8h.html#a32226eefcab7fe778279ca4d635634d4ae4db25c42dfb17cccdc9e4aa3ef038a9',1,'checksum.h']]],
+  ['kbflocktimedwaitcodetimedout_13',['kBFLockTimedWaitCodeTimedOut',['../dd/d42/lock_8h.html#aef8cd41a758eec9ed8c1950484e6d1ae',1,'lock.h']]],
+  ['kbfstringuuidstringlength_14',['kBFStringUUIDStringLength',['../d9/d9e/stringutils_8h.html#a9d12cf1c864121c5a3d3b47191a5e84b',1,'stringutils.h']]],
+  ['kbftimemonthstringaprilfull_15',['kBFTimeMonthStringAprilFull',['../d3/dfe/bftime_8c.html#a05945ff03217076c349ee1feb217ee36',1,'kBFTimeMonthStringAprilFull:&#160;bftime.c'],['../d3/d52/bftime_8h.html#a05945ff03217076c349ee1feb217ee36',1,'kBFTimeMonthStringAprilFull:&#160;bftime.c']]],
+  ['kbftimemonthstringaugustfull_16',['kBFTimeMonthStringAugustFull',['../d3/dfe/bftime_8c.html#a84f79ac24f23c03002897e040864d16e',1,'kBFTimeMonthStringAugustFull:&#160;bftime.c'],['../d3/d52/bftime_8h.html#a84f79ac24f23c03002897e040864d16e',1,'kBFTimeMonthStringAugustFull:&#160;bftime.c']]],
+  ['kbftimemonthstringdecemberfull_17',['kBFTimeMonthStringDecemberFull',['../d3/dfe/bftime_8c.html#ae346af0e3648a863764e9f526b8a57ec',1,'kBFTimeMonthStringDecemberFull:&#160;bftime.c'],['../d3/d52/bftime_8h.html#ae346af0e3648a863764e9f526b8a57ec',1,'kBFTimeMonthStringDecemberFull:&#160;bftime.c']]],
+  ['kbftimemonthstringfebruaryfull_18',['kBFTimeMonthStringFebruaryFull',['../d3/dfe/bftime_8c.html#afa081110ef1a26144e89df7a44c174a2',1,'kBFTimeMonthStringFebruaryFull:&#160;bftime.c'],['../d3/d52/bftime_8h.html#afa081110ef1a26144e89df7a44c174a2',1,'kBFTimeMonthStringFebruaryFull:&#160;bftime.c']]],
+  ['kbftimemonthstringjanuaryfull_19',['kBFTimeMonthStringJanuaryFull',['../d3/dfe/bftime_8c.html#af84dd384726d20293547e4f013e99418',1,'kBFTimeMonthStringJanuaryFull:&#160;bftime.c'],['../d3/d52/bftime_8h.html#af84dd384726d20293547e4f013e99418',1,'kBFTimeMonthStringJanuaryFull:&#160;bftime.c']]],
+  ['kbftimemonthstringjulyfull_20',['kBFTimeMonthStringJulyFull',['../d3/dfe/bftime_8c.html#a263f570342d40181d12c6b6c19871541',1,'kBFTimeMonthStringJulyFull:&#160;bftime.c'],['../d3/d52/bftime_8h.html#a263f570342d40181d12c6b6c19871541',1,'kBFTimeMonthStringJulyFull:&#160;bftime.c']]],
+  ['kbftimemonthstringjunefull_21',['kBFTimeMonthStringJuneFull',['../d3/dfe/bftime_8c.html#a3cbe866063147bc026dee3e3ca239fd3',1,'kBFTimeMonthStringJuneFull:&#160;bftime.c'],['../d3/d52/bftime_8h.html#a3cbe866063147bc026dee3e3ca239fd3',1,'kBFTimeMonthStringJuneFull:&#160;bftime.c']]],
+  ['kbftimemonthstringmarchfull_22',['kBFTimeMonthStringMarchFull',['../d3/dfe/bftime_8c.html#a0c1a50da660cd59a0fdac94cadf7b7de',1,'kBFTimeMonthStringMarchFull:&#160;bftime.c'],['../d3/d52/bftime_8h.html#a0c1a50da660cd59a0fdac94cadf7b7de',1,'kBFTimeMonthStringMarchFull:&#160;bftime.c']]],
+  ['kbftimemonthstringmayfull_23',['kBFTimeMonthStringMayFull',['../d3/dfe/bftime_8c.html#a7bc291b0b347dc2b53c56ae65709afbe',1,'kBFTimeMonthStringMayFull:&#160;bftime.c'],['../d3/d52/bftime_8h.html#a7bc291b0b347dc2b53c56ae65709afbe',1,'kBFTimeMonthStringMayFull:&#160;bftime.c']]],
+  ['kbftimemonthstringnovemberfull_24',['kBFTimeMonthStringNovemberFull',['../d3/dfe/bftime_8c.html#a59439f3d3cd0ea888584f769dc8ead35',1,'kBFTimeMonthStringNovemberFull:&#160;bftime.c'],['../d3/d52/bftime_8h.html#a59439f3d3cd0ea888584f769dc8ead35',1,'kBFTimeMonthStringNovemberFull:&#160;bftime.c']]],
+  ['kbftimemonthstringoctoberfull_25',['kBFTimeMonthStringOctoberFull',['../d3/dfe/bftime_8c.html#a3adc0fc90af3cd6c84b5f44788bcfd82',1,'kBFTimeMonthStringOctoberFull:&#160;bftime.c'],['../d3/d52/bftime_8h.html#a3adc0fc90af3cd6c84b5f44788bcfd82',1,'kBFTimeMonthStringOctoberFull:&#160;bftime.c']]],
+  ['kbftimemonthstringseptemberfull_26',['kBFTimeMonthStringSeptemberFull',['../d3/dfe/bftime_8c.html#ac3efb8d667f3ff3888df24c0b3690779',1,'kBFTimeMonthStringSeptemberFull:&#160;bftime.c'],['../d3/d52/bftime_8h.html#ac3efb8d667f3ff3888df24c0b3690779',1,'kBFTimeMonthStringSeptemberFull:&#160;bftime.c']]]
 ];

@@ -100,12 +100,12 @@ $(function(){initNavTree('df/d47/stack_8hpp_source.html','../../'); initResizabl
   <div class="headertitle"><div class="title">stack.hpp</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<a href="../../df/d47/stack_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#ifndef STACK_HPP</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#define STACK_HPP</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;access.hpp&quot;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;list.hpp&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="../../d4/dbf/access_8hpp.html">access.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="../../dc/d1d/list_8hpp.html">list.hpp</a>&quot;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d3/de8/namespaceBF.html">BF</a> {</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
@@ -113,31 +113,41 @@ $(function(){initNavTree('df/d47/stack_8hpp_source.html','../../'); initResizabl
 <div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d4/dbd/classBF_1_1Stack.html">   23</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d4/dbd/classBF_1_1Stack.html">Stack</a> : <span class="keyword">protected</span> <a class="code hl_class" href="../../d1/de0/classBF_1_1List.html">List</a>&lt;T, S&gt; {</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <a class="code hl_class" href="../../d4/dbd/classBF_1_1Stack.html">Stack</a>() : <a class="code hl_class" href="../../d1/de0/classBF_1_1List.html">List&lt;T,S&gt;</a>() {</div>
+<div class="foldopen" id="foldopen00025" data-start="{" data-end="}">
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d4/dbd/classBF_1_1Stack.html#a45003a983d849a65213feabb33a336c3">   25</a></span>    <a class="code hl_function" href="../../d4/dbd/classBF_1_1Stack.html#a45003a983d849a65213feabb33a336c3">Stack</a>() : <a class="code hl_class" href="../../d1/de0/classBF_1_1List.html">List</a>&lt;T,S&gt;() {</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    }</div>
+</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <a class="code hl_class" href="../../d4/dbd/classBF_1_1Stack.html">~Stack</a>() {</div>
+<div class="foldopen" id="foldopen00029" data-start="{" data-end="}">
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../d4/dbd/classBF_1_1Stack.html#a5f7f0f1b743ecb0f424afa229dd3affa">   29</a></span>    <a class="code hl_function" href="../../d4/dbd/classBF_1_1Stack.html#a5f7f0f1b743ecb0f424afa229dd3affa">~Stack</a>() {</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    }</div>
+</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">int</span> push(T <span class="keywordtype">object</span>) {</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <span class="keywordflow">return</span> this-&gt;add(<span class="keywordtype">object</span>);</div>
+<div class="foldopen" id="foldopen00033" data-start="{" data-end="}">
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d4/dbd/classBF_1_1Stack.html#ad7b3931f7483f1c741afcbe70144188b">   33</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d4/dbd/classBF_1_1Stack.html#ad7b3931f7483f1c741afcbe70144188b">push</a>(T <span class="keywordtype">object</span>) {</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <span class="keywordflow">return</span> this-&gt;<a class="code hl_function" href="../../d1/de0/classBF_1_1List.html#ae141a2f46b403ae0bb975e3c27c3bdf5">add</a>(<span class="keywordtype">object</span>);</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }</div>
+</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">int</span> pop() {</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordflow">return</span> this-&gt;<a class="code hl_function" href="../../d1/de0/classBF_1_1List.html#ae9f7804ed371ef3f13b43c759860c034">deleteNode</a>(this-&gt;last());</div>
+<div class="foldopen" id="foldopen00037" data-start="{" data-end="}">
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../d4/dbd/classBF_1_1Stack.html#aecbb08edb2d0528e1bfdd0e4fe529d45">   37</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d4/dbd/classBF_1_1Stack.html#aecbb08edb2d0528e1bfdd0e4fe529d45">pop</a>() {</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordflow">return</span> this-&gt;<a class="code hl_function" href="../../d1/de0/classBF_1_1List.html#ae9f7804ed371ef3f13b43c759860c034">deleteNode</a>(this-&gt;<a class="code hl_function" href="../../d1/de0/classBF_1_1List.html#a76ceeeb26d328461106549503babccd9">last</a>());</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    }</div>
+</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    T top() {</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keyword">typename</span> <a class="code hl_class" href="../../d2/dff/classBF_1_1List_1_1Node.html">List&lt;T,S&gt;::Node</a> * n = this-&gt;last();</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keywordflow">if</span> (n) <span class="keywordflow">return</span> n-&gt;object();</div>
+<div class="foldopen" id="foldopen00041" data-start="{" data-end="}">
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="../../d4/dbd/classBF_1_1Stack.html#acbd5febe1d930e6f18d0ebe0ce4868f2">   41</a></span>    T <a class="code hl_function" href="../../d4/dbd/classBF_1_1Stack.html#acbd5febe1d930e6f18d0ebe0ce4868f2">top</a>() {</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keyword">typename</span> <a class="code hl_class" href="../../d2/dff/classBF_1_1List_1_1Node.html">List&lt;T,S&gt;::Node</a> * n = this-&gt;<a class="code hl_function" href="../../d1/de0/classBF_1_1List.html#a76ceeeb26d328461106549503babccd9">last</a>();</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keywordflow">if</span> (n) <span class="keywordflow">return</span> n-&gt;<a class="code hl_function" href="../../d2/dff/classBF_1_1List_1_1Node.html#a13889d65f7b3afd6f74225bafde4c270">object</a>();</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    }</div>
+</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    S size() { <span class="keywordflow">return</span> this-&gt;count(); }</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../d4/dbd/classBF_1_1Stack.html#aaa355689a5a6ec23c3d0ab03b113d8a0">   47</a></span>    S <a class="code hl_function" href="../../d4/dbd/classBF_1_1Stack.html#aaa355689a5a6ec23c3d0ab03b113d8a0">size</a>() { <span class="keywordflow">return</span> this-&gt;<a class="code hl_function" href="../../d1/de0/classBF_1_1List.html#a4c35450c6940f496cd64cc6538af1316">count</a>(); }</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordtype">bool</span> empty() { <span class="keywordflow">return</span> this-&gt;count() == 0; };</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../d4/dbd/classBF_1_1Stack.html#a1ab10b462f83f566bd043a41b64040bf">   49</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d4/dbd/classBF_1_1Stack.html#a1ab10b462f83f566bd043a41b64040bf">empty</a>() { <span class="keywordflow">return</span> this-&gt;<a class="code hl_function" href="../../d1/de0/classBF_1_1List.html#a4c35450c6940f496cd64cc6538af1316">count</a>() == 0; };</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>};</div>
 </div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
@@ -145,17 +155,30 @@ $(function(){initNavTree('df/d47/stack_8hpp_source.html','../../'); initResizabl
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#endif </span><span class="comment">// STACK_HPP</span></div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="ttc" id="aaccess_8hpp_html"><div class="ttname"><a href="../../d4/dbf/access_8hpp.html">access.hpp</a></div></div>
 <div class="ttc" id="aclassBF_1_1List_1_1Node_html"><div class="ttname"><a href="../../d2/dff/classBF_1_1List_1_1Node.html">BF::List::Node</a></div><div class="ttdef"><b>Definition</b> list.hpp:47</div></div>
+<div class="ttc" id="aclassBF_1_1List_1_1Node_html_a13889d65f7b3afd6f74225bafde4c270"><div class="ttname"><a href="../../d2/dff/classBF_1_1List_1_1Node.html#a13889d65f7b3afd6f74225bafde4c270">BF::List::Node::object</a></div><div class="ttdeci">L object() const</div><div class="ttdef"><b>Definition</b> list.hpp:58</div></div>
 <div class="ttc" id="aclassBF_1_1List_html"><div class="ttname"><a href="../../d1/de0/classBF_1_1List.html">BF::List</a></div><div class="ttdef"><b>Definition</b> list.hpp:41</div></div>
+<div class="ttc" id="aclassBF_1_1List_html_a4c35450c6940f496cd64cc6538af1316"><div class="ttname"><a href="../../d1/de0/classBF_1_1List.html#a4c35450c6940f496cd64cc6538af1316">BF::List&lt; T, int &gt;::count</a></div><div class="ttdeci">int count() const</div><div class="ttdef"><b>Definition</b> list.hpp:104</div></div>
+<div class="ttc" id="aclassBF_1_1List_html_a76ceeeb26d328461106549503babccd9"><div class="ttname"><a href="../../d1/de0/classBF_1_1List.html#a76ceeeb26d328461106549503babccd9">BF::List&lt; T, int &gt;::last</a></div><div class="ttdeci">Node * last() const</div><div class="ttdef"><b>Definition</b> list.hpp:229</div></div>
+<div class="ttc" id="aclassBF_1_1List_html_ae141a2f46b403ae0bb975e3c27c3bdf5"><div class="ttname"><a href="../../d1/de0/classBF_1_1List.html#ae141a2f46b403ae0bb975e3c27c3bdf5">BF::List&lt; T, int &gt;::add</a></div><div class="ttdeci">int add(T obj)</div><div class="ttdef"><b>Definition</b> list.hpp:107</div></div>
 <div class="ttc" id="aclassBF_1_1List_html_ae9f7804ed371ef3f13b43c759860c034"><div class="ttname"><a href="../../d1/de0/classBF_1_1List.html#ae9f7804ed371ef3f13b43c759860c034">BF::List&lt; T, int &gt;::deleteNode</a></div><div class="ttdeci">int deleteNode(Node *node)</div><div class="ttdef"><b>Definition</b> list.hpp:288</div></div>
 <div class="ttc" id="aclassBF_1_1Stack_html"><div class="ttname"><a href="../../d4/dbd/classBF_1_1Stack.html">BF::Stack</a></div><div class="ttdef"><b>Definition</b> stack.hpp:23</div></div>
+<div class="ttc" id="aclassBF_1_1Stack_html_a1ab10b462f83f566bd043a41b64040bf"><div class="ttname"><a href="../../d4/dbd/classBF_1_1Stack.html#a1ab10b462f83f566bd043a41b64040bf">BF::Stack::empty</a></div><div class="ttdeci">bool empty()</div><div class="ttdef"><b>Definition</b> stack.hpp:49</div></div>
+<div class="ttc" id="aclassBF_1_1Stack_html_a45003a983d849a65213feabb33a336c3"><div class="ttname"><a href="../../d4/dbd/classBF_1_1Stack.html#a45003a983d849a65213feabb33a336c3">BF::Stack::Stack</a></div><div class="ttdeci">Stack()</div><div class="ttdef"><b>Definition</b> stack.hpp:25</div></div>
+<div class="ttc" id="aclassBF_1_1Stack_html_a5f7f0f1b743ecb0f424afa229dd3affa"><div class="ttname"><a href="../../d4/dbd/classBF_1_1Stack.html#a5f7f0f1b743ecb0f424afa229dd3affa">BF::Stack::~Stack</a></div><div class="ttdeci">~Stack()</div><div class="ttdef"><b>Definition</b> stack.hpp:29</div></div>
+<div class="ttc" id="aclassBF_1_1Stack_html_aaa355689a5a6ec23c3d0ab03b113d8a0"><div class="ttname"><a href="../../d4/dbd/classBF_1_1Stack.html#aaa355689a5a6ec23c3d0ab03b113d8a0">BF::Stack::size</a></div><div class="ttdeci">S size()</div><div class="ttdef"><b>Definition</b> stack.hpp:47</div></div>
+<div class="ttc" id="aclassBF_1_1Stack_html_acbd5febe1d930e6f18d0ebe0ce4868f2"><div class="ttname"><a href="../../d4/dbd/classBF_1_1Stack.html#acbd5febe1d930e6f18d0ebe0ce4868f2">BF::Stack::top</a></div><div class="ttdeci">T top()</div><div class="ttdef"><b>Definition</b> stack.hpp:41</div></div>
+<div class="ttc" id="aclassBF_1_1Stack_html_ad7b3931f7483f1c741afcbe70144188b"><div class="ttname"><a href="../../d4/dbd/classBF_1_1Stack.html#ad7b3931f7483f1c741afcbe70144188b">BF::Stack::push</a></div><div class="ttdeci">int push(T object)</div><div class="ttdef"><b>Definition</b> stack.hpp:33</div></div>
+<div class="ttc" id="aclassBF_1_1Stack_html_aecbb08edb2d0528e1bfdd0e4fe529d45"><div class="ttname"><a href="../../d4/dbd/classBF_1_1Stack.html#aecbb08edb2d0528e1bfdd0e4fe529d45">BF::Stack::pop</a></div><div class="ttdeci">int pop()</div><div class="ttdef"><b>Definition</b> stack.hpp:37</div></div>
+<div class="ttc" id="alist_8hpp_html"><div class="ttname"><a href="../../dc/d1d/list_8hpp.html">list.hpp</a></div></div>
 <div class="ttc" id="anamespaceBF_html"><div class="ttname"><a href="../../d3/de8/namespaceBF.html">BF</a></div><div class="ttdef"><b>Definition</b> array.hpp:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="../../dir_723a1c52200488eb3c7bdca4b3cb1576.html">bflibcpp</a></li><li class="navelem"><a class="el" href="../../dir_7bcac66acf78c703978d8bf77a4f96ff.html">src</a></li><li class="navelem"><b>stack.hpp</b></li>
+    <li class="navelem"><a class="el" href="../../dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="../../dir_723a1c52200488eb3c7bdca4b3cb1576.html">bflibcpp</a></li><li class="navelem"><a class="el" href="../../dir_7bcac66acf78c703978d8bf77a4f96ff.html">src</a></li><li class="navelem"><a class="el" href="../../df/d47/stack_8hpp.html">stack.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

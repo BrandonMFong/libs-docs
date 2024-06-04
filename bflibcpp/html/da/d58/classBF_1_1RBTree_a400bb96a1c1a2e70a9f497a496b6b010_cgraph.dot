@@ -1,0 +1,22 @@
+digraph "BF::RBTree::createIterator"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="BF::RBTree::createIterator",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="BF::RBTree::root",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d58/classBF_1_1RBTree.html#a9a097cbc6890b9b6a9ddd4b4673bf35e",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="BF::BinTree::root",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d78/classBF_1_1BinTree.html#aa52144513109a2470b7c7517e3f6b8de",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="BF::RBTree::Iterator\l::setCurrent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/dcf/classBF_1_1RBTree_1_1Iterator.html#a6833ac02e868dd45946face03ef06be6",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="BF::RBTree::RBNode\l::isNull",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d46/classBF_1_1RBTree_1_1RBNode.html#a8ed22095b992bbc745d2941eeb864def",tooltip=" "];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="BF::RBTree::RBNode\l::left",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d46/classBF_1_1RBTree_1_1RBNode.html#a88ec63f9ad5c2d174ff20b3702ae3b1a",tooltip=" "];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="BF::BinTree::BinNode\l::left",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/da4/classBF_1_1BinTree_1_1BinNode.html#a2dce919af2af5e740cd32e956ba65a12",tooltip=" "];
+  Node4 -> Node4 [id="edge7_Node000004_Node000004",color="steelblue1",style="solid",tooltip=" "];
+}

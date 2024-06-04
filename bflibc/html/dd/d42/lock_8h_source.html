@@ -100,43 +100,55 @@ $(function(){initNavTree('dd/d42/lock_8h_source.html','../../'); initResizable(t
   <div class="headertitle"><div class="title">lock.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<a href="../../dd/d42/lock_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#ifndef LOCK_H</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#define LOCK_H</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;typebftime.h&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="../../db/da9/typebftime_8h.html">typebftime.h</a>&quot;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">typedef</span> <span class="keywordtype">void</span> * BFLock;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../dd/d42/lock_8h.html#aaf034c719cfc68e7ab1b2e44ff3d89a8">   17</a></span><span class="keyword">typedef</span> <span class="keywordtype">void</span> * <a class="code hl_typedef" href="../../dd/d42/lock_8h.html#aaf034c719cfc68e7ab1b2e44ff3d89a8">BFLock</a>;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keywordtype">bool</span> BFLockIsValid(BFLock * _lock);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keywordtype">bool</span> <a class="code hl_function" href="../../dd/d42/lock_8h.html#afaa98f583342008b28f75cd35865bd80">BFLockIsValid</a>(<a class="code hl_typedef" href="../../dd/d42/lock_8h.html#aaf034c719cfc68e7ab1b2e44ff3d89a8">BFLock</a> * _lock);</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keywordtype">int</span> BFLockCreate(BFLock * lock);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d42/lock_8h.html#ab39999cf87763ee87f94f4afe3f4a976">BFLockCreate</a>(<a class="code hl_typedef" href="../../dd/d42/lock_8h.html#aaf034c719cfc68e7ab1b2e44ff3d89a8">BFLock</a> * lock);</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keywordtype">int</span> BFLockDestroy(BFLock * lock);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d42/lock_8h.html#a872c591f89918434bb75147ffe213447">BFLockDestroy</a>(<a class="code hl_typedef" href="../../dd/d42/lock_8h.html#aaf034c719cfc68e7ab1b2e44ff3d89a8">BFLock</a> * lock);</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keywordtype">int</span> BFLockWait(BFLock * lock);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d42/lock_8h.html#aeaaba7cc870b4cdd4f1d5ff4e36f1ace">BFLockWait</a>(<a class="code hl_typedef" href="../../dd/d42/lock_8h.html#aaf034c719cfc68e7ab1b2e44ff3d89a8">BFLock</a> * lock);</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keywordtype">bool</span> BFLockIsWaiting(BFLock * l);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keywordtype">bool</span> <a class="code hl_function" href="../../dd/d42/lock_8h.html#a04e2f82dae5661d41f59a60a8e4adeb1">BFLockIsWaiting</a>(<a class="code hl_typedef" href="../../dd/d42/lock_8h.html#aaf034c719cfc68e7ab1b2e44ff3d89a8">BFLock</a> * l);</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#define kBFLockTimedWaitCodeTimedOut 0xff</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../dd/d42/lock_8h.html#aef8cd41a758eec9ed8c1950484e6d1ae">   44</a></span><span class="preprocessor">#define kBFLockTimedWaitCodeTimedOut 0xff</span></div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keywordtype">int</span> BFLockTimedWait(BFLock * l, BFTime t);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d42/lock_8h.html#a02fb6da42394906d123bfd1669bec9e4">BFLockTimedWait</a>(<a class="code hl_typedef" href="../../dd/d42/lock_8h.html#aaf034c719cfc68e7ab1b2e44ff3d89a8">BFLock</a> * l, <a class="code hl_typedef" href="../../db/da9/typebftime_8h.html#ae032aed7ad63ab761dc913e670c6c36f">BFTime</a> t);</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="keywordtype">int</span> BFLockRelease(BFLock * lock);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d42/lock_8h.html#a67c777f4cc23209f667a7c40c18f40ff">BFLockRelease</a>(<a class="code hl_typedef" href="../../dd/d42/lock_8h.html#aaf034c719cfc68e7ab1b2e44ff3d89a8">BFLock</a> * lock);</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keywordtype">int</span> BFLockLock(BFLock * lock);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d42/lock_8h.html#af386159cdc4e9ecc2d91082fc8d575e4">BFLockLock</a>(<a class="code hl_typedef" href="../../dd/d42/lock_8h.html#aaf034c719cfc68e7ab1b2e44ff3d89a8">BFLock</a> * lock);</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keywordtype">int</span> BFLockUnlock(BFLock * lock);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d42/lock_8h.html#a8e16ea133a5567cb30d0dc33d02389f3">BFLockUnlock</a>(<a class="code hl_typedef" href="../../dd/d42/lock_8h.html#aaf034c719cfc68e7ab1b2e44ff3d89a8">BFLock</a> * lock);</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="preprocessor">#endif </span><span class="comment">// LOCK_H</span></div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="ttc" id="alock_8h_html_a02fb6da42394906d123bfd1669bec9e4"><div class="ttname"><a href="../../dd/d42/lock_8h.html#a02fb6da42394906d123bfd1669bec9e4">BFLockTimedWait</a></div><div class="ttdeci">int BFLockTimedWait(BFLock *l, BFTime t)</div><div class="ttdef"><b>Definition</b> lock.c:81</div></div>
+<div class="ttc" id="alock_8h_html_a04e2f82dae5661d41f59a60a8e4adeb1"><div class="ttname"><a href="../../dd/d42/lock_8h.html#a04e2f82dae5661d41f59a60a8e4adeb1">BFLockIsWaiting</a></div><div class="ttdeci">bool BFLockIsWaiting(BFLock *l)</div><div class="ttdef"><b>Definition</b> lock.c:144</div></div>
+<div class="ttc" id="alock_8h_html_a67c777f4cc23209f667a7c40c18f40ff"><div class="ttname"><a href="../../dd/d42/lock_8h.html#a67c777f4cc23209f667a7c40c18f40ff">BFLockRelease</a></div><div class="ttdeci">int BFLockRelease(BFLock *lock)</div><div class="ttdef"><b>Definition</b> lock.c:109</div></div>
+<div class="ttc" id="alock_8h_html_a872c591f89918434bb75147ffe213447"><div class="ttname"><a href="../../dd/d42/lock_8h.html#a872c591f89918434bb75147ffe213447">BFLockDestroy</a></div><div class="ttdeci">int BFLockDestroy(BFLock *lock)</div><div class="ttdef"><b>Definition</b> lock.c:50</div></div>
+<div class="ttc" id="alock_8h_html_a8e16ea133a5567cb30d0dc33d02389f3"><div class="ttname"><a href="../../dd/d42/lock_8h.html#a8e16ea133a5567cb30d0dc33d02389f3">BFLockUnlock</a></div><div class="ttdeci">int BFLockUnlock(BFLock *lock)</div><div class="ttdef"><b>Definition</b> lock.c:133</div></div>
+<div class="ttc" id="alock_8h_html_aaf034c719cfc68e7ab1b2e44ff3d89a8"><div class="ttname"><a href="../../dd/d42/lock_8h.html#aaf034c719cfc68e7ab1b2e44ff3d89a8">BFLock</a></div><div class="ttdeci">void * BFLock</div><div class="ttdef"><b>Definition</b> lock.h:17</div></div>
+<div class="ttc" id="alock_8h_html_ab39999cf87763ee87f94f4afe3f4a976"><div class="ttname"><a href="../../dd/d42/lock_8h.html#ab39999cf87763ee87f94f4afe3f4a976">BFLockCreate</a></div><div class="ttdeci">int BFLockCreate(BFLock *lock)</div><div class="ttdef"><b>Definition</b> lock.c:36</div></div>
+<div class="ttc" id="alock_8h_html_aeaaba7cc870b4cdd4f1d5ff4e36f1ace"><div class="ttname"><a href="../../dd/d42/lock_8h.html#aeaaba7cc870b4cdd4f1d5ff4e36f1ace">BFLockWait</a></div><div class="ttdeci">int BFLockWait(BFLock *lock)</div><div class="ttdef"><b>Definition</b> lock.c:66</div></div>
+<div class="ttc" id="alock_8h_html_af386159cdc4e9ecc2d91082fc8d575e4"><div class="ttname"><a href="../../dd/d42/lock_8h.html#af386159cdc4e9ecc2d91082fc8d575e4">BFLockLock</a></div><div class="ttdeci">int BFLockLock(BFLock *lock)</div><div class="ttdef"><b>Definition</b> lock.c:122</div></div>
+<div class="ttc" id="alock_8h_html_afaa98f583342008b28f75cd35865bd80"><div class="ttname"><a href="../../dd/d42/lock_8h.html#afaa98f583342008b28f75cd35865bd80">BFLockIsValid</a></div><div class="ttdeci">bool BFLockIsValid(BFLock *_lock)</div><div class="ttdef"><b>Definition</b> lock.c:27</div></div>
+<div class="ttc" id="atypebftime_8h_html"><div class="ttname"><a href="../../db/da9/typebftime_8h.html">typebftime.h</a></div></div>
+<div class="ttc" id="atypebftime_8h_html_ae032aed7ad63ab761dc913e670c6c36f"><div class="ttname"><a href="../../db/da9/typebftime_8h.html#ae032aed7ad63ab761dc913e670c6c36f">BFTime</a></div><div class="ttdeci">double BFTime</div><div class="ttdef"><b>Definition</b> typebftime.h:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="../../dir_f7372359dc1e93f39b436881b4b347c9.html">bflibc</a></li><li class="navelem"><a class="el" href="../../dir_e99af850ddf191b90634409465f8282d.html">src</a></li><li class="navelem"><b>lock.h</b></li>
+    <li class="navelem"><a class="el" href="../../dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="../../dir_f7372359dc1e93f39b436881b4b347c9.html">bflibc</a></li><li class="navelem"><a class="el" href="../../dir_e99af850ddf191b90634409465f8282d.html">src</a></li><li class="navelem"><a class="el" href="../../dd/d42/lock_8h.html">lock.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

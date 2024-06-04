@@ -1,0 +1,15 @@
+digraph "BF::RBTree::RBNodeNull::clone"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="BF::RBTree::RBNodeNull\l::clone",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="BF::RBTree::RBNodeNull\l::RBNodeNull",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/daa/classBF_1_1RBTree_1_1RBNodeNull.html#a36788fdc67348412e77e16e53274ddb8",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="BF::RBTree::RBNode\l::setColor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d46/classBF_1_1RBTree_1_1RBNode.html#aa4eb7d56c76bbf4edc0a47e4337b517a",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="BF::RBTree::RBNode\l::color",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d46/classBF_1_1RBTree_1_1RBNode.html#a9b0785f678b09b4dd4dc1a585162b4f8",tooltip=" "];
+}

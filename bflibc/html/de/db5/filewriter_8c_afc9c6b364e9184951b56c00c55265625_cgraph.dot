@@ -1,0 +1,30 @@
+digraph "BFFileWriterClose"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="BFFileWriterClose",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="BFFileWriterFlush",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/db5/filewriter_8c.html#a72816265bfd51104bf37ab0461bcfb13",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_LineQueueGetSize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/db5/filewriter_8c.html#af9ea174ea120bf8c983dcca4a8ce102c",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="BFLockLock",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dae/lock_8c.html#af386159cdc4e9ecc2d91082fc8d575e4",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="BFLockUnlock",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dae/lock_8c.html#a8e16ea133a5567cb30d0dc33d02389f3",tooltip=" "];
+  Node2 -> Node4 [id="edge5_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node5 [id="edge6_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge7_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="BFLockDestroy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dae/lock_8c.html#a872c591f89918434bb75147ffe213447",tooltip=" "];
+  Node1 -> Node7 [id="edge8_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="BFThreadAsyncCancel",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/de7/thread_8c.html#a9053bdab00db5b5883f892339b29eae6",tooltip=" "];
+  Node1 -> Node8 [id="edge9_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="BFThreadAsyncDestroy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/de7/thread_8c.html#af3844706d8b1b2102c7435b4e1a9342d",tooltip=" "];
+  Node8 -> Node6 [id="edge10_Node000008_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node9 [id="edge11_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="BFThreadAsyncWait",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/de7/thread_8c.html#a3023319dab656b0f7e64c438129a4b97",tooltip=" "];
+  Node9 -> Node10 [id="edge12_Node000009_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="BFThreadAsyncIsRunning",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/de7/thread_8c.html#a1c527f2732dfc5dd369d67b1c233a6a7",tooltip=" "];
+}
