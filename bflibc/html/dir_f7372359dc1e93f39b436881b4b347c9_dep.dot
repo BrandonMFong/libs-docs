@@ -1,4 +1,4 @@
-digraph "/Volumes/otashi/brando/sources/repo/libs/bflibc"
+digraph "bflibc"
 {
  // LATEX_PDF_SIZE
   bgcolor="transparent";
