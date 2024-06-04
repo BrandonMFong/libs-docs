@@ -1,5 +1,5 @@
-# Best Freaking Libraries Documentation
+# [BFLibCPP](./bflibcpp/html/index.html)
+Contains CPP utilities like Binary Trees, Dictionaries, Arrays, memory management, etc.
 
-## [BFLibCPP](./bflibcpp/html/index.html)
-Personal library for essential CPP utilities like Binary Trees, Dictionaries, Arrays, memory management, etc.
-
+# [BFLibC](./bflibc/html/index.html)
+Contains multithreading utilities like `BFLock` and `BFThreadAsync`
