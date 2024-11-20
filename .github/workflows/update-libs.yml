@@ -17,5 +17,5 @@ jobs:
         token: ${{ secrets.PAT_TOKEN }}
     - name: Modifiy the specific files using scripts
       run: |
-        echo "hello";
+        echo "hello world";
 
